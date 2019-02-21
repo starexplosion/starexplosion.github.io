@@ -1,6 +1,23 @@
-h1 {
-    color:dodgerblue;
+
+h2.pie {
+    outline-width: 10px;
+    outline-color: yellow;
+    margin: 30px;
+    padding: 10px;
+    background-color:white;
+    color:black;
+    border: 20px solid yellow;
+    text-align: center;
 }
-p {
-    color:darkviolet
+
+h2.hi {
+    outline-width:10px;
+    outline-color:green
+    margin:30px;
+    padding: 10px;
+    background-color:white;
+    color:black;
+    border: 20px solid green;
+    text-align:center;
+
 }
