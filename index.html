@@ -2,7 +2,8 @@
 <html>
 
 <head>
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+   <meta charset="utf-8">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -12,28 +13,49 @@
 </head>
 
 
-<body class="container">
-   <header>
-      <h1 style="text-align: center;" class=display-1;>Home</h1>
+<body>
+   <header class="jumbotron" style="margin-bottom:0">
+      <h1 style="text-align: center"><small>Home</small></h1>
    </header>
-   <nav class="sticky">
-      <a href="index.html" style="color: black">Home|</a>
-      <a href="about me.html" style="color: black">About Me|</a>
-      <a href="the amazing space.html" style="color:black"> The Basics|</a>
-      <a href="sciencefair.html" style="color:black">Science Fair</a>
 
+   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <a class="navbar-brand" href="#">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+         <ul class="navbar-nav">
+            <li class="nav-item">
+               <a class="nav-link" href="about me.html">About Me</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="the amazing space.html">The Basics</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="sciencefair.html">Science Fair</a>
+            </li>
+
+         </ul>
+      </div>
    </nav>
 
 
-   <p>I saw a bird in the Constitution of GMOs. I need to petition.
+
+
+
+   <p> This website is for people who are interested in astronomy. I hope that all of you become interested in astronomy
+      after looking at this site! It <i>will</i> teach about space and physics, and you could watch videos if you dont
+      understand. I hope you learn a lot from this site.
 
    </p>
-   <p class="animal">Fun Fact: The Hottest Temperature in the Universe Recorded so far was
-      1,420,000,000,000,000,000,000,000,000,000,000 degrees Farenheight.</p>
-
+   <p><kbd>hi</kbd><kbd> im</kbd><kbd> bob</kbd></p>
+   <div class="jumbotron text-center">
+      <p class="animal">Fun Fact: The Hottest Temperature in the Universe Recorded so far was
+         1,420,000,000,000,000,000,000,000,000,000,000 degrees Farenheight.</p>
+   </div>
 
    <img src="galaxy.jpg" style="max-width: 100%; height: auto">
-   <footer style="background-color:white; color: black ; text-align: center"> &#169; Aditya
+   <footer class="jumbotron text-center"> &#169; Aditya
       Subramanian
    </footer>
 </body>
